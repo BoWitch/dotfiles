@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.config/:
+      glob: true
+      path: config/*
+    ~/.ssh/config: ssh/config
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
