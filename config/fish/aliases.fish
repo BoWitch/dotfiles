@@ -6,7 +6,6 @@ alias dm 'docker-machine'
 
 alias k 'kubectl'
 
-alias rm 'trash'
 alias cat 'bat'
 
 alias ls 'exa'

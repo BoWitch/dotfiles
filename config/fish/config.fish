@@ -2,10 +2,9 @@ eval (starship init fish)
 source (dirname (status -f))/aliases.fish
 source (dirname (status -f))/completions.fish
 
-set -gx EDITOR vim
+set -gx EDITOR nano
 
-set -gx EDITOR nvim
-set -gx VISUAL nvim
+set -gx VISUAL code
 set -gx PAGER less
 set -gx LESS '-F -g -i -M -R -S -w -X -z-4'
 
@@ -31,3 +30,5 @@ direnv hook fish | source
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish
+
+rvm default
