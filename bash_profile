@@ -158,3 +158,5 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+export KUBECONFIG=$HOME/.kube/config/devops-kubeconfig.yaml
