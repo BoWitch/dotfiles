@@ -47,7 +47,8 @@ set __fish_kubectl_commands alpha \
   top \
   uncordon \
   version \
-  wait
+  wait \
+  delete-all
 
 function __fish_kubectl
   command kubectl $__fish_kubectl_timeout $argv
@@ -98,6 +99,7 @@ function __fish_kubectl_get_commands
   echo uncordon\t'Mark node as schedulable'
   echo version\t'Print the client and server version information'
   echo wait\t'Experimental: Wait for a specific condition on one or many resources.'
+  echo delete-all\'Delete all resources in namespace.'
 end
 
 set __fish_kubectl_resources        \
