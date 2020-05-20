@@ -32,3 +32,8 @@ direnv hook fish | source
 [ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish
 
 rvm default
+
+set -g fish_user_paths "/usr/local/opt/v8@3.15/bin" $fish_user_paths
+set -g fish_user_paths "/usr/local/opt/gnu-getopt/bin" $fish_user_paths
+
+export KUBECONFIG=$HOME/.kube/configs/config-applifting
