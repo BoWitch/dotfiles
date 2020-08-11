@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export PYENV_ROOT:/Users/forgac/\x2epyenv
 SETUVAR __fish_init_1_50_0:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
@@ -33,3 +34,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:555\x1eyellow
 SETUVAR fish_pager_color_prefix:cyan
 SETUVAR fish_pager_color_progress:cyan
+SETUVAR --export fish_user_paths:/Users/forgac/\x2epyenv/bin\x1e/usr/local/opt/gnu\x2dgetopt/bin\x1e/usr/local/opt/v8\x403\x2e15/bin
