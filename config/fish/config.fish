@@ -1,4 +1,3 @@
-eval (starship init fish)
 source (dirname (status -f))/aliases.fish
 source (dirname (status -f))/completions.fish
 
