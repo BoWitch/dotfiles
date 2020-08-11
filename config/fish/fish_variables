@@ -34,4 +34,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:555\x1eyellow
 SETUVAR fish_pager_color_prefix:cyan
 SETUVAR fish_pager_color_progress:cyan
-SETUVAR --export fish_user_paths:/Users/forgac/\x2epyenv/bin\x1e/usr/local/opt/gnu\x2dgetopt/bin\x1e/usr/local/opt/v8\x403\x2e15/bin
+SETUVAR --export fish_user_paths:/usr/local/opt/gnu\x2dgetopt/bin\x1e/usr/local/opt/v8\x403\x2e15/bin\x1e/Users/forgac/\x2epyenv/bin\x1e/usr/local/opt/gnu\x2dgetopt/bin\x1e/usr/local/opt/v8\x403\x2e15/bin\x1e/usr/local/opt/fzf/bin
