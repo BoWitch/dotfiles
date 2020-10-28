@@ -1,3 +1,41 @@
 Host fordevDaidalos
   HostName daidalos.fordev.cz
   User root
+
+Host jsk
+  HostName mail2.jsk.cz
+  Port 62022
+  User jskroot
+
+Host jskCap
+  HostName mail2.jsk.cz
+  Port 62022
+  User deploy
+
+Host git.bankid
+  HostName git.bankid
+  IdentityFile ~/.ssh/id_ed25519
+
+Host dockerVM
+  HostName 10.44.4.101
+  User applifting
+
+Host gitlab.com
+  HostName gitlab.com
+  IdentityFile ~/.ssh/id_ed25519
+
+Host gitlab.comAlpiq
+  HostName gitlab.com:alpiq_cicd
+  IdentityFile ~/.ssh/alpiq_rsa
+
+Host git.applifting.cz
+  HostName git.applifting.cz
+  IdentityFile ~/.ssh/id_ed25519
+
+Host Alpiq-gitlab
+  HostName gitlab.com
+  IdentityFile ~/.ssh/alpiq_rsa
+
+Host AzureDevOps
+  HostName vs-ssh.visualstudio.com
+  IdentityFile ~/.ssh/id_rsa
