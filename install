@@ -35,6 +35,17 @@ else
 fi
 
 ############
+# RVM #
+############
+
+echo -ne "${PURPLE}Install RVM ${SET} (${GREEN}y${SET}/${RED}N${SET}) => "; read answer
+if [[ $answer == "y" ]] || [[ $answer == "Y" ]] ; then
+  \curl -sSL https://get.rvm.io | bash -s stable
+else
+  echo -e "${DARKGRAY}Skipping RVM...${SET}"
+fi
+
+############
 # DOTFILES #
 ############
 

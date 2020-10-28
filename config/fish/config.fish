@@ -36,3 +36,5 @@ set -g fish_user_paths "/usr/local/opt/v8@3.15/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gnu-getopt/bin" $fish_user_paths
 
 export KUBECONFIG=$HOME/.kube/configs/config-applifting
+
+starship init fish | source
