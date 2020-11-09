@@ -24,17 +24,13 @@ Host gitlab.com
   HostName gitlab.com
   IdentityFile ~/.ssh/id_ed25519
 
-Host gitlab.comAlpiq
-  HostName gitlab.com:alpiq_cicd
+Host gitlab.com-alpiq
+  HostName gitlab.com
   IdentityFile ~/.ssh/alpiq_rsa
 
 Host git.applifting.cz
   HostName git.applifting.cz
   IdentityFile ~/.ssh/id_ed25519
-
-Host Alpiq-gitlab
-  HostName gitlab.com
-  IdentityFile ~/.ssh/alpiq_rsa
 
 Host AzureDevOps
   HostName vs-ssh.visualstudio.com
