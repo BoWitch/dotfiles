@@ -30,8 +30,6 @@ direnv hook fish | source
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish ]; and . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.fish
 
-rvm default
-
 set -g fish_user_paths "/usr/local/opt/v8@3.15/bin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/gnu-getopt/bin" $fish_user_paths
 

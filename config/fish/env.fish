@@ -1,5 +1,5 @@
 # Python: source pyenv config for fish
-. (pyenv init - fish | psub)
+#. (pyenv init - fish | psub)
 
 # Set locale
 set -gx LC_ALL en_US.UTF-8
